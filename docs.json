@@ -134,6 +134,8 @@
           },
           {
             "group": "Team",
+            "tag": "Team",
+            "expanded": true,
             "pages": [
               "team/our-team"
             ]
