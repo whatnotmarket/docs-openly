@@ -3,12 +3,21 @@
   "theme": "mint",
   "name": "Openly Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#157ca3",
+    "light": "#069cc9",
+    "dark": "#145780"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon-white.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Welcome",
+          "icon": "book-open-cover",
+          "href": "/"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Documentation",
@@ -16,9 +25,9 @@
           {
             "group": "Introduction",
             "pages": [
-              "what is Openly",
-              "what We Solve",
-              "How It Works"
+              "what-is-openly",
+              "what-we-solve",
+              "how-it-works"
             ]
           },
           {
@@ -51,15 +60,16 @@
               }
             ]
           },
-
           {
             "group": "Roadmap",
+            "icon": "map",
             "pages": [
               "roadmap/overview"
             ]
           },
           {
             "group": "Openly Ecosystem",
+            "icon": "circle",
             "pages": [
               "openly-ecosystem/overview",
               {
@@ -124,6 +134,7 @@
           },
           {
             "group": "Team",
+            "expanded": true,
             "pages": [
               "team/our-team"
             ]
@@ -144,7 +155,7 @@
         "groups": [
           {
             "group": "Overview Token",
-            "icon": "coins",
+            "icon": "coin",
             "root": "token/overview",
             "pages": [
               {
@@ -179,7 +190,7 @@
         "groups": [
           {
             "group": "Whitepaper",
-            "icon": "book",
+            "icon": "book-open",
             "pages": [
               "whitepaper/overview"
             ]
@@ -191,7 +202,7 @@
         "groups": [
           {
             "group": "Social",
-            "icon": "arrow-up-right-from-square",
+            "icon": "share-from-square",
             "root": "social/overview",
             "pages": [
               "social/x",
@@ -201,7 +212,6 @@
               "social/paragraph",
               "social/bluesky",
               "social/farcaster"
-
             ]
           }
         ]
@@ -211,26 +221,19 @@
         "groups": [
           {
             "group": "Realeses",
+            "icon": "clock-rotate-left",
             "pages": [
               "changelog/changelog"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Welcome",
-          "href": "/",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logosvgblack.svg",
+    "dark": "/images/logosvgwhite.svg",
+    "href": "https://docs.openlymarket.xyz/"
   },
   "navbar": {
     "links": [
@@ -262,5 +265,14 @@
       "x": "https://x.com/openlymarket",
       "github": "https://github.com/openlydev"
     }
+  },
+  "fonts": {
+    "family": "Geist"
+  },
+  "background": {
+    "decoration": "windows"
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
