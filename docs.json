@@ -184,6 +184,7 @@
       },
       {
         "tab": "Whitepaper",
+        "icon": "book-open",
         "groups": [
           {
             "group": "Whitepaper",
