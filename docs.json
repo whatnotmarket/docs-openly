@@ -126,19 +126,19 @@
             ]
           },
           {
+            "group": "Roadmap",
+            "icon": "map",
+            "pages": [
+              "roadmap/overview"
+            ]
+          },
+          {
             "group": "Security",
             "pages": [
               "security/wallet-signatures",
               "security/escrow-system",
               "security/anti-abuse",
               "security/risk-scoring"
-            ]
-          },
-          {
-            "group": "Roadmap",
-            "icon": "map",
-            "pages": [
-              "roadmap/overview"
             ]
           },
           {
