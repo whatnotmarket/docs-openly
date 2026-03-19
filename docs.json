@@ -14,55 +14,201 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "what is Openly",
+              "what We Solve",
+              "How It Works"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Get Started",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "get-started/Open an Account",
+              {
+                "group": "Choose a Role",
+                "root": "choose-a-role",
+                "pages": [
+                  {
+                    "group": "Become a Buyer",
+                    "root": "buyer/overview",
+                    "pages": [
+                      "buyer/how-to-buy",
+                      "buyer/flow",
+                      "buyer/protection"
+                    ]
+                  },
+                  {
+                    "group": "Become a Seller",
+                    "root": "seller/overview",
+                    "pages": [
+                      "seller/onboarding",
+                      "seller/listing-and-selling",
+                      "seller/requirements"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "group": "Roadmap",
+            "pages": [
+              "roadmap/overview"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Openly Ecosystem",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "openly-ecosystem/overview",
+              {
+                "group": "OpenlyMarket",
+                "root": "openly-market/overview",
+                "pages": [
+                  {
+                    "group": "Features",
+                    "root": "openly-market/features/overview",
+                    "pages": [
+                      "openly-market/features/buy-with-crypto",
+                      "openly-market/features/global-chat",
+                      {
+                        "group": "Deal Room",
+                        "root": "openly-market/deal-room/overview",
+                        "pages": [
+                          "openly-market/deal-room/deal-system",
+                          "openly-market/deal-room/chat",
+                          "openly-market/deal-room/escrow",
+                          "openly-market/deal-room/transaction-flow"
+                        ]
+                      },
+                      "openly-market/features/search-and-discovery"
+                    ]
+                  },
+                  "openly-market/trust-and-safety",
+                  "openly-market/escrow-service",
+                  "openly-market/openlymarket-app"
+                ]
+              },
+              {
+                "group": "OpenlyWallet",
+                "root": "openly-wallet/overview",
+                "pages": [
+                  "openly-wallet/functionality",
+                  "openly-wallet/identity-system",
+                  "openly-wallet/multi-wallet",
+                  "openly-wallet/recovery-system",
+                  "openly-wallet/security-model"
+                ]
+              },
+              {
+                "group": "OpenlyShipping Layer",
+                "root": "openly-shipping-layer/overview",
+                "pages": [
+                  "openly-shipping-layer/shipping-package-web3",
+                  "openly-shipping-layer/proxy-ordering",
+                  "openly-shipping-layer/fulfillment",
+                  "openly-shipping-layer/tracking"
+                ]
+              },
+              {
+                "group": "OpenlyNetwork",
+                "root": "openly-network/overview",
+                "pages": [
+                  "openly-network/vision",
+                  "openly-network/infrastructure",
+                  "openly-network/future-expansion"
+                ]
+              }
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Team",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "team/our-team"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/wallet-signatures",
+              "security/escrow-system",
+              "security/anti-abuse",
+              "security/risk-scoring"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Token",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Overview Token",
+            "root": "token/overview",
             "pages": [
-              "api-reference/introduction"
+              {
+                "group": "Utility",
+                "root": "token/utility/overview",
+                "pages": [
+                  "token/utility/fees",
+                  "token/utility/payments",
+                  "token/utility/rewards",
+                  "token/utility/ecosystem-role",
+                  "token/utility/launch-model",
+                  "token/utility/governance",
+                  "token/utility/tokenomics",
+                  "token/utility/token-roadmap"
+                ]
+              },
+              {
+                "group": "Invest",
+                "pages": [
+                  "token/invest/market-cap-potential",
+                  "token/invest/investor-highlights",
+                  "token/invest/international-acceptance",
+                  "token/invest/invest-in-openly"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Whitepaper",
+        "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Whitepaper",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "whitepaper/overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Social",
+        "groups": [
+          {
+            "group": "Social",
+            "root": "social/overview",
+            "pages": [
+              "social/github",
+              "social/x",
+              "social/bluesky",
+              "social/medium",
+              "social/reddit",
+              "social/farcaster",
+              "social/paragraph"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Realeses",
+            "pages": [
+              "changelog/changelog"
             ]
           }
         ]
@@ -71,14 +217,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Welcome",
+          "href": "/",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
