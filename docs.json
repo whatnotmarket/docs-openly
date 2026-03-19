@@ -202,7 +202,7 @@
         "groups": [
           {
             "group": "Social",
-            "icon": "share",
+            "icon": "share-from-square",
             "root": "social/overview",
             "pages": [
               "social/x",
