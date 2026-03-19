@@ -264,5 +264,8 @@
   },
   "fonts": {
     "family": "Geist"
+  },
+  "background": {
+    "decoration": "windows"
   }
 }
