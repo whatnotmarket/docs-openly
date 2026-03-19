@@ -217,6 +217,7 @@
       },
       {
         "tab": "Changelog",
+        "icon": "rotate-left",
         "groups": [
           {
             "group": "Realeses",
