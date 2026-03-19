@@ -22,43 +22,6 @@
             ]
           },
           {
-            "group": "Get Started",
-            "pages": [
-              "get-started/Open an Account",
-              {
-                "group": "Choose a Role",
-                "root": "choose-a-role",
-                "pages": [
-                  {
-                    "group": "Become a Buyer",
-                    "root": "buyer/overview",
-                    "pages": [
-                      "buyer/how-to-buy",
-                      "buyer/flow",
-                      "buyer/protection"
-                    ]
-                  },
-                  {
-                    "group": "Become a Seller",
-                    "root": "seller/overview",
-                    "pages": [
-                      "seller/onboarding",
-                      "seller/listing-and-selling",
-                      "seller/requirements"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-
-          {
-            "group": "Roadmap",
-            "pages": [
-              "roadmap/overview"
-            ]
-          },
-          {
             "group": "Openly Ecosystem",
             "pages": [
               "openly-ecosystem/overview",
@@ -123,9 +86,39 @@
             ]
           },
           {
-            "group": "Team",
+            "group": "Get Started",
             "pages": [
-              "team/our-team"
+              "get-started/Open an Account",
+              {
+                "group": "Choose a Role",
+                "root": "choose-a-role",
+                "pages": [
+                  {
+                    "group": "Become a Buyer",
+                    "root": "buyer/overview",
+                    "pages": [
+                      "buyer/how-to-buy",
+                      "buyer/flow",
+                      "buyer/protection"
+                    ]
+                  },
+                  {
+                    "group": "Become a Seller",
+                    "root": "seller/overview",
+                    "pages": [
+                      "seller/onboarding",
+                      "seller/listing-and-selling",
+                      "seller/requirements"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Roadmap",
+            "pages": [
+              "roadmap/overview"
             ]
           },
           {
@@ -135,6 +128,12 @@
               "security/escrow-system",
               "security/anti-abuse",
               "security/risk-scoring"
+            ]
+          },
+          {
+            "group": "Team",
+            "pages": [
+              "team/our-team"
             ]
           }
         ]
@@ -232,12 +231,12 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "support@openlymarket.xyz"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Get Started",
       "href": "https://dashboard.mintlify.com"
     }
   },
@@ -255,9 +254,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/openlymarket",
+      "github": "https://github.com/openlydev"
     }
   }
 }
