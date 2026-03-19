@@ -21,6 +21,7 @@
     "tabs": [
       {
         "tab": "Documentation",
+        "icon": "page",
         "groups": [
           {
             "group": "Introduction",
