@@ -21,7 +21,6 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "icon": "page",
         "groups": [
           {
             "group": "Introduction",
@@ -153,7 +152,7 @@
         "groups": [
           {
             "group": "Overview Token",
-            "icon": "coin-vertical",
+            "icon": "coin",
             "root": "token/overview",
             "pages": [
               {
@@ -185,11 +184,10 @@
       },
       {
         "tab": "Whitepaper",
-        "icon": "book-open",
         "groups": [
           {
             "group": "Whitepaper",
-            "icon": "book",
+            "icon": "book-open",
             "pages": [
               "whitepaper/overview"
             ]
@@ -217,7 +215,6 @@
       },
       {
         "tab": "Changelog",
-        "icon": "rotate-left",
         "groups": [
           {
             "group": "Realeses",
