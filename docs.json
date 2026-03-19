@@ -221,6 +221,7 @@
         "groups": [
           {
             "group": "Realeses",
+            "icon": "clock-rotate-left",
             "pages": [
               "changelog/changelog"
             ]
