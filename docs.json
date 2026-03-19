@@ -7,8 +7,17 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon-white.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Welcome",
+          "icon": "book-open-cover",
+          "href": "/"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Documentation",
@@ -51,7 +60,6 @@
               }
             ]
           },
-
           {
             "group": "Roadmap",
             "pages": [
@@ -191,7 +199,7 @@
         "groups": [
           {
             "group": "Social",
-            "icon": "arrow-up-right-from-square",
+            "icon": "share",
             "root": "social/overview",
             "pages": [
               "social/x",
@@ -201,7 +209,6 @@
               "social/paragraph",
               "social/bluesky",
               "social/farcaster"
-
             ]
           }
         ]
@@ -217,20 +224,12 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Welcome",
-          "href": "/",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/images/logosvgblack.svg",
-    "dark": "/images/logosvgwhite.svg"
+    "dark": "/images/logosvgwhite.svg",
+    "href": "https://openlymarket.xyz/"
   },
   "navbar": {
     "links": [
