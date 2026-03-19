@@ -69,6 +69,7 @@
           },
           {
             "group": "Openly Ecosystem",
+            "icon": "circle",
             "pages": [
               "openly-ecosystem/overview",
               {
