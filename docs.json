@@ -144,6 +144,7 @@
         "groups": [
           {
             "group": "Overview Token",
+            "icon": "coins",
             "root": "token/overview",
             "pages": [
               {
@@ -178,6 +179,7 @@
         "groups": [
           {
             "group": "Whitepaper",
+            "icon": "book",
             "pages": [
               "whitepaper/overview"
             ]
@@ -189,15 +191,17 @@
         "groups": [
           {
             "group": "Social",
+            "icon": "arrow-up-right-from-square",
             "root": "social/overview",
             "pages": [
-              "social/github",
               "social/x",
-              "social/bluesky",
+              "social/github",
               "social/medium",
               "social/reddit",
-              "social/farcaster",
-              "social/paragraph"
+              "social/paragraph",
+              "social/bluesky",
+              "social/farcaster"
+
             ]
           }
         ]
