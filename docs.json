@@ -261,5 +261,8 @@
       "x": "https://x.com/openlymarket",
       "github": "https://github.com/openlydev"
     }
+  },
+  "fonts": {
+    "family": "Geist"
   }
 }
