@@ -152,7 +152,7 @@
         "groups": [
           {
             "group": "Overview Token",
-            "icon": "coins",
+            "icon": "coin-vertical",
             "root": "token/overview",
             "pages": [
               {
@@ -267,5 +267,8 @@
   },
   "background": {
     "decoration": "windows"
+  },
+  "appearance": {
+    "default": "dark"
   }
 }
