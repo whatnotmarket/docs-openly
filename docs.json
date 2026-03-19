@@ -62,6 +62,7 @@
           },
           {
             "group": "Roadmap",
+            "icon": "map",
             "pages": [
               "roadmap/overview"
             ]
